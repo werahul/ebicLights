@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,200;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+.card-text {
+    color: gray;
+    font-size: 13px;
+}
+
+.card-body{
+    height: 28vh;
+}
+.card-body h5 {
+    font-weight: normal;
+    color: rgb(16, 16, 97);
+    font-family: 'Cabin', sans-serif;
+    
+}
+.card-body h4{
+    font-size: 18px;
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+}
+.flex-btn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position : absolute;
+    bottom: 1px;
+}
+.btn-ele{
+    position: relative;
+    left: 60%;
+}
+.btn-ele:hover{
+    color: rgb(218, 96, 14);
+}
+.flex-btn2{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 15%;
+    left:0px
+}
+.flex-btn2 button{
+   width: 100%;
+   border-color: rgb(218, 96, 14) ;
+   color: rgb(218, 96, 14);
+   background: none;
+   border-radius: 4px;
+   box-shadow: 2px 2px 2px white;
+   font-size: 15px;
+ }
+
+.flex-btn2 button:hover{
+   border-color: none;
+   color: white;
+   background: rgb(218, 96, 14);
+}
+ /* Prodcut Page Styling */
+
+.prod-div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
